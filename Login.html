@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stamzilla Login</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Abhishek Singh,Nickil Dubey">
+	<link rel="icon" type="image/x-icon" href="media/middleF.png">
+	<meta name="viewport" content="width=device-width,initial-scale=0">
+	<style type="text/css">
+		body{
+			background-image: url(https://wallpaper-house.com/data/out/9/wallpaper2you_318216.jpg);
+			background-size: cover;
+
+		}
+		.nav{
+				position:fixed;
+				width:100%;
+				top:0;
+				background-color: black;
+				left:0;
+				right:0;
+			}
+			nav{
+				display:grid;
+				border:1px #f2e377 solid;
+				grid-template-columns: 25% 25% 25% 25%;
+				grid-template-rows: 40px;
+			}
+			nav a:hover{
+				background-color: #2d2d2d;
+			}
+			nav a{
+				text-decoration: none;
+				text-align: center;
+				color:#f2e377;
+				padding-top: 5px;
+				font-size: 25px;
+				font-family: 'Courier',serif;
+				font-weight: 540;
+
+			}
+		.bg{
+			height:450px;
+			width:450px;
+			box-shadow: 5px 5px 1px black;
+			background-color: white;
+			margin: auto;
+			margin-top: 120px;
+		}
+		.form{
+			position: absolute;
+			top:150px;
+			font-size: 25px;
+			font-family: 'Garamond',serif;
+			padding: 5px;
+			margin:auto;
+			
+		}
+
+		form{
+			padding: 10px;
+		}
+		input[type="Email"]{
+			margin-bottom: 25px;
+			color:white;
+			background-color: black;
+			width:380px;
+			height:40px;
+			font-size: 23px
+		}
+		input[type="password"]{
+			margin-bottom: 25px;
+			width:380px;
+			color:white;
+			background-color: black;
+			height:40px;
+			font-size: 23px
+		}
+		.f3{
+			padding-left: 95px;
+
+		}
+		.f1{
+			margin-top: 60px;
+		}
+		.f1,.f2{
+			padding-left: 12px;
+		}
+		input[type="Email"]:focus{
+			box-shadow: 4px 4px black;
+		}
+		input[type="password"]:focus{
+			box-shadow: 4px 4px black;
+		}
+		p{
+			font-size: 20px;
+			text-align: center;
+		}
+		input[type="submit"]{
+			width: 80%;
+			background-color:black;
+			color:white; 
+			border-radius: 20px;
+			cursor: pointer;
+			height:30px;
+		}
+		h2{
+			text-align: center;
+			font-family: 'Garamond',serif;
+			font-variant: small-caps;
+			background-color: black;
+			color:white;
+			font-size: 34px;
+			
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="nav">
+			<nav>
+				<a href="homepage.html" target="_blank">Home</a>
+				<a href="Login.html" target="_blank">Login</a>
+				<a href="#" target="_blank">Collection</a>
+				<a href="#" target="_blank">About</a>
+			</nav>
+		</div>
+	</header>
+	<div class="bg">
+		<h2>Login</h2>
+	<div class="form">
+		
+		<form>
+			<div class="f1">
+			<input type="Email" placeholder="Enter Email">
+		</div>
+		<div class="f2">
+			<br>
+			<input type="password" placeholder="Enter Password">
+		</div>
+			<br>
+			<div class="f3">
+			<input type="Submit">
+		</div>
+			<br>
+			<p>Don't have an account?<a href="#">Sign-In</a></p>
+		</form>
+	</div>
+	</div>
+	
+</body>
+</html>
